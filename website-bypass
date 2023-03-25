@@ -1,0 +1,4 @@
+javascript:open('https://discord.com/app?'+'i'.repeat(16380))
+javascript:onbeforeunload=i=>1
+
+put both of these in your bookmarks and replace the https://discord.com/app with anywebsite you want. then click on the first bookmark and as fast as you can click the second book mark
