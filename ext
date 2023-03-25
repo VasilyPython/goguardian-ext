@@ -1,0 +1,10 @@
+javascript:if (confirm("Are you sure you want to run this? It is very effective. Made by vas#7084")) {
+  let shim = false;
+  var ids = prompt("Extension IDs (comma separated)").split(",");
+  setInterval(() => {
+    ids.forEach((id) => {
+      opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim})
+    });
+    shim = !shim;
+  }, 145);
+}
